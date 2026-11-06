@@ -73,6 +73,7 @@ The dock can be repositioned alongside other OBS panels.
 
 **Example dock states:**
 
+
 ```text
 +--------------------------------------+
 |                                      |
@@ -83,6 +84,7 @@ The dock can be repositioned alongside other OBS panels.
 |  [Avatar] LordVaderCW         About  |
 +--------------------------------------+
 ```
+<img width="1080" height="1079" alt="image" src="https://github.com/user-attachments/assets/288e0b2c-b6be-49bf-8119-7e23ea7f9136" />
 
 ```text
 +--------------------------------------+
@@ -94,6 +96,7 @@ The dock can be repositioned alongside other OBS panels.
 |  [Avatar] LordVaderCW         About  |
 +--------------------------------------+
 ```
+<img width="1176" height="1080" alt="image" src="https://github.com/user-attachments/assets/cb62aacd-8f2b-4b66-976d-38f0f066308a" />
 
 The examples are illustrative representations of the dock interface.
 

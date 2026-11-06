@@ -1,0 +1,10 @@
+/.vs
+/assets
+/build
+OBS-Qt-SDK-Report.txt
+/qt
+/tools
+/zip
+lib/lib.exe
+lib/link.exe
+lib/dumpbin.exe

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+	<PropertyGroup>
+		<!-- SDK root directories -->
+		<OBSSDKDir>$(MSBuildThisFileDirectory)lib\</OBSSDKDir>
+		<QtSDKDir>$(MSBuildThisFileDirectory)qt\</QtSDKDir>
+	</PropertyGroup>
+
+	<ItemDefinitionGroup>
+
+		<ClCompile>
+			<!-- C++17 and standards compliance -->
+			<LanguageStandard>stdcpp17</LanguageStandard>
+			<ConformanceMode>true</ConformanceMode>
+			<WarningLevel>Level4</WarningLevel>
+
+			<!-- SDK include paths for compiler and IntelliSense -->
+			<AdditionalIncludeDirectories>$(OBSSDKDir);$(QtSDKDir)include;$(QtSDKDir)include\QtCore;$(QtSDKDir)include\QtGui;$(QtSDKDir)include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+
+			<!-- SDK external-header classification -->
+			<ExternalIncludeDirectories>$(OBSSDKDir);$(QtSDKDir)include;$(QtSDKDir)include\QtCore;$(QtSDKDir)include\QtGui;$(QtSDKDir)include\QtWidgets;%(ExternalIncludeDirectories)</ExternalIncludeDirectories>
+
+			<!-- Suppress warnings originating from external headers -->
+			<ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+
+			<!-- Correct C++ standard detection -->
+			<AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+		</ClCompile>
+
+		<Link>
+			<!-- OBS and Qt import library paths -->
+			<AdditionalLibraryDirectories>$(OBSSDKDir);$(QtSDKDir)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+
+			<!-- OBS and Qt dependencies -->
+			<AdditionalDependencies>obs.lib;obs-frontend-api.lib;Qt6Core.lib;Qt6Gui.lib;Qt6Widgets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+		</Link>
+
+	</ItemDefinitionGroup>
+
+</Project>

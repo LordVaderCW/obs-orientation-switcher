@@ -1,0 +1,124 @@
+
+Dump of file obs-frontend-api.dll
+
+File Type: DLL
+
+  Section contains the following exports for obs-frontend-api.dll
+
+    00000000 characteristics
+    2E8D3DFD time date stamp
+        0.00 version
+           1 ordinal base
+          99 number of functions
+          99 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000011D0 ?obs_frontend_set_callbacks_internal@@YAXPEAUobs_frontend_callbacks@@@Z = ?obs_frontend_set_callbacks_internal@@YAXPEAUobs_frontend_callbacks@@@Z (void __cdecl obs_frontend_set_callbacks_internal(struct obs_frontend_callbacks *))
+          2    1 000031C0 obs_frontend_add_canvas = obs_frontend_add_canvas
+          3    2 000025B0 obs_frontend_add_custom_qdock = obs_frontend_add_custom_qdock
+          4    3 00002520 obs_frontend_add_dock_by_id = obs_frontend_add_dock_by_id
+          5    4 00002600 obs_frontend_add_event_callback = obs_frontend_add_event_callback
+          6    5 000029B0 obs_frontend_add_preload_callback = obs_frontend_add_preload_callback
+          7    6 00002930 obs_frontend_add_save_callback = obs_frontend_add_save_callback
+          8    7 00001DC0 obs_frontend_add_scene_collection = obs_frontend_add_scene_collection
+          9    8 000024E0 obs_frontend_add_tools_menu_item = obs_frontend_add_tools_menu_item
+         10    9 00002490 obs_frontend_add_tools_menu_qaction = obs_frontend_add_tools_menu_qaction
+         11    A 00003110 obs_frontend_add_undo_redo_action = obs_frontend_add_undo_redo_action
+         12    B 000032A0 obs_frontend_can_paste_sceneitem = obs_frontend_can_paste_sceneitem
+         13    C 00003260 obs_frontend_copy_sceneitem = obs_frontend_copy_sceneitem
+         14    D 000020B0 obs_frontend_create_profile = obs_frontend_create_profile
+         15    E 000028D0 obs_frontend_defer_save_begin = obs_frontend_defer_save_begin
+         16    F 00002900 obs_frontend_defer_save_end = obs_frontend_defer_save_end
+         17   10 00002130 obs_frontend_delete_profile = obs_frontend_delete_profile
+         18   11 000020F0 obs_frontend_duplicate_profile = obs_frontend_duplicate_profile
+         19   12 00002780 obs_frontend_get_app_config = obs_frontend_get_app_config
+         20   13 00003180 obs_frontend_get_canvases = obs_frontend_get_canvases
+         21   14 00002C80 obs_frontend_get_current_preview_scene = obs_frontend_get_current_preview_scene
+         22   15 00001FF0 obs_frontend_get_current_profile = obs_frontend_get_current_profile
+         23   16 00002030 obs_frontend_get_current_profile_path = obs_frontend_get_current_profile_path
+         24   17 00002F80 obs_frontend_get_current_record_output_path = obs_frontend_get_current_record_output_path
+         25   18 00001940 obs_frontend_get_current_scene = obs_frontend_get_current_scene
+         26   19 00001D40 obs_frontend_get_current_scene_collection = obs_frontend_get_current_scene_collection
+         27   1A 000019E0 obs_frontend_get_current_transition = obs_frontend_get_current_transition
+         28   1B 00002800 obs_frontend_get_global_config = obs_frontend_get_global_config
+         29   1C 00003050 obs_frontend_get_last_recording = obs_frontend_get_last_recording
+         30   1D 000030D0 obs_frontend_get_last_replay = obs_frontend_get_last_replay
+         31   1E 00003090 obs_frontend_get_last_screenshot = obs_frontend_get_last_screenshot
+         32   1F 00002FC0 obs_frontend_get_locale_string = obs_frontend_get_locale_string
+         33   20 00001200 obs_frontend_get_main_window = obs_frontend_get_main_window
+         34   21 00001240 obs_frontend_get_main_window_handle = obs_frontend_get_main_window_handle
+         35   22 00002740 obs_frontend_get_profile_config = obs_frontend_get_profile_config
+         36   23 00001E10 obs_frontend_get_profiles = obs_frontend_get_profiles
+         37   24 000026C0 obs_frontend_get_recording_output = obs_frontend_get_recording_output
+         38   25 00002700 obs_frontend_get_replay_buffer_output = obs_frontend_get_replay_buffer_output
+         39   26 00001B60 obs_frontend_get_scene_collections = obs_frontend_get_scene_collections
+         40   27 000012C0 obs_frontend_get_scene_names = obs_frontend_get_scene_names
+         41   28 00001910 obs_frontend_get_scenes = obs_frontend_get_scenes
+         42   29 00002680 obs_frontend_get_streaming_output = obs_frontend_get_streaming_output
+         43   2A 00002AA0 obs_frontend_get_streaming_service = obs_frontend_get_streaming_service
+         44   2B 00001280 obs_frontend_get_system_tray = obs_frontend_get_system_tray
+         45   2C 00001AF0 obs_frontend_get_tbar_position = obs_frontend_get_tbar_position
+         46   2D 00001A50 obs_frontend_get_transition_duration = obs_frontend_get_transition_duration
+         47   2E 000019B0 obs_frontend_get_transitions = obs_frontend_get_transitions
+         48   2F 000027C0 obs_frontend_get_user_config = obs_frontend_get_user_config
+         49   30 00002D70 obs_frontend_get_virtualcam_output = obs_frontend_get_virtualcam_output
+         50   31 00003010 obs_frontend_is_theme_dark = obs_frontend_is_theme_dark
+         51   32 00002850 obs_frontend_open_projector = obs_frontend_open_projector
+         52   33 00002F40 obs_frontend_open_sceneitem_edit_transform = obs_frontend_open_sceneitem_edit_transform
+         53   34 00002EC0 obs_frontend_open_source_filters = obs_frontend_open_source_filters
+         54   35 00002F00 obs_frontend_open_source_interaction = obs_frontend_open_source_interaction
+         55   36 00002E80 obs_frontend_open_source_properties = obs_frontend_open_source_properties
+         56   37 000032F0 obs_frontend_paste_sceneitem = obs_frontend_paste_sceneitem
+         57   38 00002A70 obs_frontend_pop_ui_translation = obs_frontend_pop_ui_translation
+         58   39 00002C00 obs_frontend_preview_enabled = obs_frontend_preview_enabled
+         59   3A 00002B50 obs_frontend_preview_program_mode_active = obs_frontend_preview_program_mode_active
+         60   3B 00002BD0 obs_frontend_preview_program_trigger_transition = obs_frontend_preview_program_trigger_transition
+         61   3C 00002A30 obs_frontend_push_ui_translation = obs_frontend_push_ui_translation
+         62   3D 00002270 obs_frontend_recording_active = obs_frontend_recording_active
+         63   3E 00002370 obs_frontend_recording_add_chapter = obs_frontend_recording_add_chapter
+         64   3F 000022B0 obs_frontend_recording_pause = obs_frontend_recording_pause
+         65   40 000022F0 obs_frontend_recording_paused = obs_frontend_recording_paused
+         66   41 00002330 obs_frontend_recording_split_file = obs_frontend_recording_split_file
+         67   42 00002210 obs_frontend_recording_start = obs_frontend_recording_start
+         68   43 00002240 obs_frontend_recording_stop = obs_frontend_recording_stop
+         69   44 00001AC0 obs_frontend_release_tbar = obs_frontend_release_tbar
+         70   45 00003210 obs_frontend_remove_canvas = obs_frontend_remove_canvas
+         71   46 00002570 obs_frontend_remove_dock = obs_frontend_remove_dock
+         72   47 00002640 obs_frontend_remove_event_callback = obs_frontend_remove_event_callback
+         73   48 000029F0 obs_frontend_remove_preload_callback = obs_frontend_remove_preload_callback
+         74   49 00002970 obs_frontend_remove_save_callback = obs_frontend_remove_save_callback
+         75   4A 00002450 obs_frontend_replay_buffer_active = obs_frontend_replay_buffer_active
+         76   4B 000023F0 obs_frontend_replay_buffer_save = obs_frontend_replay_buffer_save
+         77   4C 000023C0 obs_frontend_replay_buffer_start = obs_frontend_replay_buffer_start
+         78   4D 00002420 obs_frontend_replay_buffer_stop = obs_frontend_replay_buffer_stop
+         79   4E 00002E50 obs_frontend_reset_video = obs_frontend_reset_video
+         80   4F 000028A0 obs_frontend_save = obs_frontend_save
+         81   50 00002B20 obs_frontend_save_streaming_service = obs_frontend_save_streaming_service
+         82   51 00002CC0 obs_frontend_set_current_preview_scene = obs_frontend_set_current_preview_scene
+         83   52 00002070 obs_frontend_set_current_profile = obs_frontend_set_current_profile
+         84   53 00001980 obs_frontend_set_current_scene = obs_frontend_set_current_scene
+         85   54 00001D80 obs_frontend_set_current_scene_collection = obs_frontend_set_current_scene_collection
+         86   55 00001A20 obs_frontend_set_current_transition = obs_frontend_set_current_transition
+         87   56 00002C40 obs_frontend_set_preview_enabled = obs_frontend_set_preview_enabled
+         88   57 00002B90 obs_frontend_set_preview_program_mode = obs_frontend_set_preview_program_mode
+         89   58 00002AE0 obs_frontend_set_streaming_service = obs_frontend_set_streaming_service
+         90   59 00001B30 obs_frontend_set_tbar_position = obs_frontend_set_tbar_position
+         91   5A 00001A90 obs_frontend_set_transition_duration = obs_frontend_set_transition_duration
+         92   5B 00002DB0 obs_frontend_start_virtualcam = obs_frontend_start_virtualcam
+         93   5C 00002DE0 obs_frontend_stop_virtualcam = obs_frontend_stop_virtualcam
+         94   5D 000021D0 obs_frontend_streaming_active = obs_frontend_streaming_active
+         95   5E 00002170 obs_frontend_streaming_start = obs_frontend_streaming_start
+         96   5F 000021A0 obs_frontend_streaming_stop = obs_frontend_streaming_stop
+         97   60 00002D00 obs_frontend_take_screenshot = obs_frontend_take_screenshot
+         98   61 00002D30 obs_frontend_take_source_screenshot = obs_frontend_take_source_screenshot
+         99   62 00002E10 obs_frontend_virtualcam_active = obs_frontend_virtualcam_active
+
+  Summary
+
+        1000 .data
+        1000 .pdata
+        4000 .rdata
+        1000 .reloc
+        1000 .rsrc
+        4000 .text

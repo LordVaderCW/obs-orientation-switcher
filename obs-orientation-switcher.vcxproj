@@ -92,6 +92,7 @@
     <ClCompile Include="src\plugin-main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="assets\rcdata1.bin" />
     <None Include="OBSPaths.props" />
   </ItemGroup>
   <ItemGroup>
@@ -99,6 +100,9 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="resources\plugin.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\lordvadercw.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

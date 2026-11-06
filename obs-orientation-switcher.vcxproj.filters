@@ -20,6 +20,7 @@
     <None Include="OBSPaths.props">
       <Filter>Config</Filter>
     </None>
+    <None Include="assets\rcdata1.bin" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resources\resource.h">
@@ -30,5 +31,8 @@
     <ResourceCompile Include="resources\plugin.rc">
       <Filter>resources</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\lordvadercw.png" />
   </ItemGroup>
 </Project>
